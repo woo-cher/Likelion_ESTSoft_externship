@@ -1,3 +1,19 @@
+# :bookmark: [멋사 & ESTsoft] 익스턴십 1기
+
+본 `repository` 는 **[멋사 & ESTSoft]** 에서 주최한 [개발자 Externship](https://projectlion.io/courses/technology/estsoft#lecture-intro) 
+교육 과정을 수료한 **최종 결과물**입니다. 아래는 `미션`을 수행하면서 **어떤 요소를 중점**으로 접근했고, **교육 과정에서 느낀점**, **최종 회고** 등을 정리한 내용입니다 :)
+
+<details style="padding-left: 2%">
+<summary><h3 style="display: inline">수료증 및 최종 결과</h3></summary>
+<div markdown="1">
+
+![Untitled](./images/8.png)
+![Untitled](./images/9.png)
+![Untitled](./images/10.png)
+
+</div>
+</details>
+
 ### 👉🏿 **EXTERNSHIP 지원 동기**
 
 > 안녕하세요! 작은 스타트업에서 **1인 개발 환경**에서 2년 근무했던 **주니어 개발자**입니다. 이번 **익스턴십**을 통해 나의 개발 방식에는 어떤 문제가 있는지, 코드 리뷰를 통해 얻을 수 있는 것은 무엇인지, 그리고 처음 사용해보는 기술들에 대해서 익혀 보고 싶어서 **지원**하게 되었습니다. 또한, 이번 경험과 함께 다시 **취업 성공**에 도움이 되었으면 하는 바람입니다 :)
@@ -69,7 +85,7 @@ Based on - Module Lawyer
 ┗ 📂 test
 ```
 
-#### [📤 목차로 돌아가기](#1tech-stack)
+#### [📤 목차로 돌아가기](#contents)
 
 <br>
 
@@ -118,10 +134,10 @@ Based on - Module Lawyer
 "refact: 중복이 발생하는 Token 검증 로직을 메소드로 분리 - close #10"
 ```
 
-#### [📤 목차로 돌아가기](#1tech-stack)
-
 </div>
 </details>
+
+#### [📤 목차로 돌아가기](#contents)
 
 <br>
 
@@ -134,8 +150,6 @@ Based on - Module Lawyer
 <details>
 <summary><h2 style="display: inline">⭐ WEEK 1</h2></summary>
 <div markdown="1">
-
-<br>
 
 **✅ 프로젝트 초기 세팅**
 
@@ -255,7 +269,6 @@ public class MemberRegisterDto {
 </div>
 </details>
 
-<br>
 <details>
 <summary><h2 style="display: inline">⭐ WEEK 2</h2></summary>
 <div markdown="1">
@@ -873,7 +886,7 @@ void EmptyBearerString() {
 </div>
 </details>
 
-#### [📤 목차로 돌아가기](#1tech-stack)
+#### [📤 목차로 돌아가기](#contents)
 
 <br>
 
@@ -931,7 +944,9 @@ public class LoginService {
 ```
 </p>
 
-#### [📤 **리팩토링 된 코드 보기**](#newCode)
+#### [📤 **리팩토링 코드 바로가기**](#newCode)
+
+<br>
 
 > 2️⃣ 그런 뒤, 타 소셜 미디어인 `Naver`, `Google` 이 추가 될 수도 있다는 부분을 생각하여 공통 행위를 정리하고 추상화 인터페이스를 추가하였습니다.
 
@@ -959,10 +974,7 @@ public interface SocialMemberInfo {
 }
 ```
 
-<aside>
-3️⃣ 그리고 각 소셜 객체가 추상 인터페이스를 상속 받도록 하였습니다.
-
-</aside>
+> 3️⃣ 그리고 각 소셜 객체가 추상 인터페이스를 상속 받도록 하였습니다.
 
 - 추상화 상속
 
@@ -1075,7 +1087,7 @@ public class LoginService {
 </div>
 </details>
 
-#### [📤 목차로 돌아가기](#1tech-stack)
+#### [📤 목차로 돌아가기](#contents)
 
 <br>
 
