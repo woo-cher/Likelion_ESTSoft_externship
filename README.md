@@ -1,12 +1,12 @@
-> 👉🏿 **EXTERNSHIP 지원 동기**
->
+### 👉🏿 **EXTERNSHIP 지원 동기**
+
 > 안녕하세요! 작은 스타트업에서 **1인 개발 환경**에서 2년 근무했던 **주니어 개발자**입니다. 이번 **익스턴십**을 통해 나의 개발 방식에는 어떤 문제가 있는지, 코드 리뷰를 통해 얻을 수 있는 것은 무엇인지, 그리고 처음 사용해보는 기술들에 대해서 익혀 보고 싶어서 **지원**하게 되었습니다. 또한, 이번 경험과 함께 다시 **취업 성공**에 도움이 되었으면 하는 바람입니다 :)
 
+###  👉🏿 **MISSION 접근**
 
-
-> 👉🏿 **MISSION 에 대한 접근**
-> 
 > **JPA, Thymleaf, Gradle** 등 처음 사용해보는 기술들이 많았기 때문에 곧 바로 기능을 구현하지는 않았습니다. 공식 문서와 가이드 예제 코드를 작성해보면서 어느 상황에서 사용할 수 있는 부분인지 등을 먼저 익히려고 노력했습니다. 그런 뒤, 구현 해야 되는 요구 사항을 기능 별로 정리해서 구현하는 형태로 접근하였습니다. 또한 매주 **기능 구현**과 더불어 **리팩토링**까지 하는 것을 목표로 잡으려고 노력하였습니다.
+
+<br>
 
 <p id="top">
 
@@ -14,17 +14,19 @@
 
 </p>
 
-### **1️⃣ [Tech Stack](#1tech-stack)**
+### **1️⃣ [Tech Stack](#1%EF%B8%8F⃣tech-stack)**
 
-### **2️⃣ [Package Structure](#2-package-structure)**
+### **2️⃣ [Package Structure](#2%EF%B8%8F⃣-package-structure)**
 
-### **3️⃣ [Git issue & commit](#3-git-issue--commit)**
+### **3️⃣ [Git issue & commit](#3%EF%B8%8F⃣-git-issue--commit)**
 
-### **4️⃣ [미션 별 Pull Request & 주요 구현 형태](#4---pull-request---)**
+### **4️⃣ [미션 별 Pull Request & 주요 구현 형태](#4%EF%B8%8F⃣-미션-별-pull-request-및-구현-형태)**
 
-### **5️⃣ [Refactoring](#5-refactoring)**
+### **5️⃣ [Refactoring](#5%EF%B8%8F⃣-refactoring)**
 
-### **6️⃣ [회고](#6-회고)**
+### **6️⃣ [회고](#6%EF%B8%8F⃣-회고-1)**
+
+<br>
 
 # ****1️⃣ Tech Stack****
 
@@ -36,9 +38,9 @@
 | Front-end | Thymeleaf |
 | Other Tools | Github, Feign, Junit5 |
 
-<br>
+#### [📤 목차로 돌아가기](#contents)
 
-#### [📤 목차로 돌아가기](#1tech-stack)
+<br>
 
 # 2️⃣ ****Package Structure****
 
@@ -67,11 +69,13 @@ Based on - Module Lawyer
 ┗ 📂 test
 ```
 
-<br>
-
 #### [📤 목차로 돌아가기](#1tech-stack)
 
+<br>
+
 # 3️⃣ Git issue & commit
+
+<br>
 
 > 👉🏿 **Git issue 와 commit 활용**
 > 
@@ -79,8 +83,6 @@ Based on - Module Lawyer
 
 > 💡 **`Git iusse`** 활성화 하는 방법을 뒤늦게 확인하여, **4주차 미션부터** `git issue` 와 **`commit`** 을 연계 처리 하였습니다.
 
-
-<br>
 <details>
 <summary><h3 style="display: inline">👥 Issue 관리</h3></summary>
 <div markdown="1">
@@ -94,7 +96,6 @@ Based on - Module Lawyer
 </div>
 </details>
 
-<br>
 <details>
 <summary><h3 style="display: inline">👥 개발 유형에 따른 commit 적용</h3></summary>
 <div markdown="1">
@@ -122,13 +123,14 @@ Based on - Module Lawyer
 </div>
 </details>
 
+<br>
+
 # 4️⃣ 미션 별 Pull Request 및 구현 형태 
 
 <br>
 
 > 💡 **코드량이 많은 상세 구현 형태의 경우, 내용 길이 관계 상 따로 정리하지 않았습니다!**
 
-<br>
 <details>
 <summary><h2 style="display: inline">⭐ WEEK 1</h2></summary>
 <div markdown="1">
@@ -140,8 +142,6 @@ Based on - Module Lawyer
 **✅ 네비게이션바, 푸터, 쇼핑몰 공통 레이아웃**
 
 **✅ 회원가입 / 로그인 / 로그아웃**
-
-<br>
 
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Pull Request</h3></summary>
@@ -157,16 +157,12 @@ Based on - Module Lawyer
 > - 1주차 미션 중 접근하기 가장 접근하기 어려운 부분이 **secuirty** 였는데요. 배경지식 파일에 이 부분에 대한 정보가 부족하게 느껴져서 아쉬웠습니다.
 > - 회원가입 관련 오류 메시지의 경우는 validation 을 통해 처리하라는 내용이 있었는데, login 관련 오류의 경우는 무엇으로 처리해야 하는 지에 대한 부분이 없어서 아쉬웠던 것 같아요.
 
-<br>
-
 - **강사님 코드 리뷰 의견**
 
 ![Untitled](./images/3.png)
 
 </div>
 </details>
-
-<br>
 
 > 👉🏿 **1주차 미션 접근 방식**
 >
@@ -176,7 +172,6 @@ Based on - Module Lawyer
 
 ### **📖 주요 구현 형태**
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Front layout</h3></summary>
 <div markdown="1">
@@ -198,7 +193,6 @@ Based on - Module Lawyer
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Spring Security</h3></summary>
 <div markdown="1">
@@ -225,7 +219,6 @@ public class UserDetailsImpl implements UserDetails {
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Validation</h3></summary>
 <div markdown="1">
@@ -267,13 +260,9 @@ public class MemberRegisterDto {
 <summary><h2 style="display: inline">⭐ WEEK 2</h2></summary>
 <div markdown="1">
 
-<br>
-
 ✅ 인증 여부 / 권한에 따른 메뉴 노출 제어
 
 ✅ 상품 등록 / 조회 / 수정
-
-<br>
 
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Pull Request</h3></summary>
@@ -308,12 +297,8 @@ public class MemberRegisterDto {
 
 ![Untitled](./images/4.png)
 
-<br>
-
 </div>
 </details>
-
-<br>
 
 > 👉🏿 **2주차 미션 접근 방식**
 >
@@ -323,7 +308,6 @@ public class MemberRegisterDto {
 
 ### **📖 주요 구현 형태**
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Interface-Based Projections</h3></summary>
 <div markdown="1">
@@ -345,7 +329,6 @@ public List<DeliveryDto> findAllDeliveryByMember(long id) {
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Custom Validator</h3></summary>
 <div markdown="1">
@@ -374,20 +357,15 @@ public class UpdateItemValidator implements Validator {
 </div>
 </details>
 
-<br>
 <details>
 <summary><h2 style="display: inline">⭐ WEEK 3</h2></summary>
 <div markdown="1">
-
-<br>
 
 **✅ 메인 페이지 상품 조회 (Paging)**
 
 **✅ 상품 상세 페이지 조회**
 
 **✅ 주문 생성 / 조회 / 취소 구현하기**
-
-<br>
 
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Pull Request</h3></summary>
@@ -426,8 +404,6 @@ public class UpdateItemValidator implements Validator {
 > - 여러 관계 컬럼들을 조회할 때, 어떤 방향으로 접근해야 하는지 아직 감이 잘 오지 않습니다.. 기본 join 문법으로 필요 컬럼만을 조회하는 것이 옳은 방향인지 잘 모르겠습니다. JPA 가 참 어렵네요 ㅠ
 > - 이번 주차에는 **`@query`** 를 많이 사용해서 직접 쿼리문을 작성하였는데, 쿼리가 길어짐에 따라 가독성 부분에서 많이 아쉬움이 느껴졌습니다. 이 부분에 대해서는 보통 어떻게 처리 하는 걸까요??
 
-<br>
-
 - **강사님 코드 리뷰 의견**
 
 ![Untitled](./images/5.png)
@@ -435,8 +411,6 @@ public class UpdateItemValidator implements Validator {
 </div>
 </details>
     
-<br>
-
 > 👉🏿 **3주차 미션 접근 방식**
 >
 > DTO 에 여러 연관 관계 엔터티 필드 데이터가 필요한 경우 **`fetct join`** 을 사용하려고 했습니다.
@@ -465,7 +439,6 @@ Page<MainItemDto> findAllBySearchQuery(@Param("query") String searchQuery, Pagea
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Custom Exception</h3></summary>
 <div markdown="1">
@@ -496,7 +469,6 @@ if (item.getStockNumber() < insertOrderDto.getCount()) {
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Response Entity</h3></summary>
 <div markdown="1">
@@ -540,12 +512,9 @@ $.ajax({
 </div>
 </details>
 
-<br>
 <details>
 <summary><h2 style="display: inline">⭐ WEEK 4</h2></summary>
 <div markdown="1">
-
-<br>
 
 **✅ Health Check API 구현**
 
@@ -554,8 +523,6 @@ $.ajax({
 **✅ 카카오 토큰 발급**
 
 **✅ 소셜 로그인 및 회원가입, JWT 반환**
-
-<br>
 
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Pull Request</h3></summary>
@@ -600,16 +567,12 @@ $.ajax({
 > - 전 주차의 pull req 와 merge 후, 리팩토링 누락된 부분이 있어서 이번 주차에 함께 포함되어 버린 점 양해 부탁드립니다 ☹️
 > - `Header` 토큰 값 존재 여부 판단의 경우 `Interceptor` 를 구현하려 했으나, 차 주 미션에 포함 되어 있다고 하셔서 우선 `GlobalHandler` 에 구현하였습니다.
 
-<br>
-
 - **강사님 코드 리뷰 의견**
 
 ![Untitled](./images/6.png)
 
 </div>
 </details>
-
-<br>
 
 > 👉🏿 **4주차 미션 접근 방식**
 >
@@ -621,7 +584,6 @@ $.ajax({
 
 ### **📖 주요 구현 형태**
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Social 로직 추상화</h3></summary>
 <div markdown="1">
@@ -678,7 +640,6 @@ public class SocialLoginService {
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Feign Client 요청 파라미터가 많은 경우 처리</h3></summary>
 <div markdown="1">
@@ -698,7 +659,6 @@ public interface SomeClient {
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Feign Dynamic url</h3></summary>
 <div markdown="1">
@@ -721,12 +681,9 @@ public interface FooClient {
 </div>
 </details>
 
-<br>
 <details>
 <summary><h2 style="display: inline">⭐ WEEK 5</h2></summary>
 <div markdown="1">
-
-<br>
 
 **✅ 상품 등록 / 조회 / 수정 API 구현**
 
@@ -735,8 +692,6 @@ public interface FooClient {
 **✅ Swagger 를 이용한 API 문서화**
 
 **✅ 자동 배포 설정 (CI/CD)**
-
-<br>
 
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Pull Request</h3></summary>
@@ -777,16 +732,12 @@ public interface FooClient {
 >
 > • 저는 여태껏 민감한 정보를 숨기기 위해 로컬에서 따로 관리하는 형태로 `env.properties` 파일을 두었었는데요. 그리고 이는 `.gitignore` 처리된 파일입니다. 배포를 하면 해당 파일을 찾지 못해 서버가 가동이 되지 않는데요. 해당 `env.properties` 를 빌드 시 추가해줄 수 있는 방법이 있을까요??
 
-<br>
-
 - **강사님 코드 리뷰 의견**
 
 ![Untitled](./images/7.png)
 
 </div>
 </details>
-
-<br>
 
 > 👉🏿 **5주차 미션 접근 방식**
 >
@@ -796,7 +747,6 @@ public interface FooClient {
 
 ### **📖 주요 구현 형태**
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">TEST CODE</h3></summary>
 <div markdown="1">
@@ -879,7 +829,6 @@ class 인터셉터 테스트 {
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Authorization Intercetor</h3></summary>
 <div markdown="1">
@@ -924,9 +873,9 @@ void EmptyBearerString() {
 </div>
 </details>
 
-<br>
-
 #### [📤 목차로 돌아가기](#1tech-stack)
+
+<br>
 
 # 5️⃣ Refactoring
 
@@ -945,7 +894,6 @@ void EmptyBearerString() {
 6. 추상화 할 수 있는 로직
 ```
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">소셜 로그인 추상화 리팩토링 과정 살펴보기</h3></summary>
 <div markdown="1">
@@ -1124,17 +1072,15 @@ public class LoginService {
 
 #### [📤 처음 코드로 돌아가기](#original-code)
 
-
 </div>
 </details>
 
-<br>
-
 #### [📤 목차로 돌아가기](#1tech-stack)
+
+<br>
 
 # 6️⃣ 회고
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">새로운 기술의 사용</h3></summary>
 <div markdown="1">
@@ -1148,7 +1094,6 @@ public class LoginService {
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">Mybatis & Jpa</h3></summary>
 <div markdown="1">
@@ -1161,7 +1106,6 @@ public class LoginService {
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">코드 리뷰와 그룹 피어 리뷰</h3></summary>
 <div markdown="1">
@@ -1171,7 +1115,6 @@ public class LoginService {
 </div>
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">시간적 여유의 부재</h3></summary>
 <div markdown="1">
@@ -1180,7 +1123,6 @@ public class LoginService {
 
 </details>
 
-<br>
 <details style="padding-left: 2%">
 <summary><h3 style="display: inline">익스턴십을 마치며</h3></summary>
 <div markdown="1">
@@ -1196,12 +1138,11 @@ public class LoginService {
 >
 > **하지만** 이번 익스턴십을 통해 직접 사용해보면서 대부분 방향을 찾은 느낌이 들었습니다!! 무엇보다 앞으로 내가 어떤 기술을 이용해 개발을 하고 싶은지 알 수 있었기에 뜻 깊은 경험이었고, 늦은 시간에도 항상 답변 해주신 **변구훈** 강사님께 감사 인사를 드리고 싶습니다 **:)**
 
-
 </div>
 </details>
 
-<br>
-
 #### [📤 맨위로 올라가기](#top)
 
-## **감사합니다**😄
+<br>
+
+<h1>감사합니다😄</h1> 
